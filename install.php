@@ -16,7 +16,7 @@ if (isset($_POST['buat'])) {
 	header('location:admin/login.php');
 }
 if (isset($_POST['buat2'])) {
-	$filename = 'config/ecandy28r3.sql';
+	$filename = 'cbtcandy.sql';
 	$templine = '';
 	$lines = file($filename);
 	foreach ($lines as $line) {
